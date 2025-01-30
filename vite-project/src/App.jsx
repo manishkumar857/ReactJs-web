@@ -1,13 +1,13 @@
 import './App.css'
-import "./Product.jsx"
-import Product from './Product.jsx'
+
+import ProductTab from './ProductTab.jsx'
 function App() {
 
   return (
     <>
       <h1>Vite + React</h1>
-      <Product/>
-      <Product/>
+      <ProductTab/>
+    
     </>
   )
 }
